@@ -1,0 +1,6 @@
+const Seneca = require('seneca');
+const 
+
+const Service = Seneca
+    .listen({ port: 5000, host: '127.0.0.1' })
+    .use();
